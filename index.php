@@ -206,10 +206,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-sm-6 text-end mt-3">
-                        <a href="">Login</a>
+                        <a href="login.php">Login</a>
                     </div>
                     <div class="col-6 col-sm-6 text-center mt-3">
-                        <a href="">Sign in</a>
+                        <a href="signin.php">Sign in</a>
                     </div>
                 </div>
             </div>
