@@ -1,0 +1,102 @@
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,0,3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,.3);
+    background-color: seagreen;
+}
+#init-page {
+    font-family: 'Nunito', sans-serif;
+}
+/*HEADER*/
+#header {
+    background-color: whitesmoke;
+}
+#header a {
+    text-decoration: none;
+    color: rgb(130, 185, 46);
+    font-size: 20px;
+    font-weight: bold;
+}
+/*NAVBAR*/
+#navbar {
+    background-color: whitesmoke;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(130, 185, 46);
+    font-size: 20px;
+    font-weight: bold;
+}
+.fa-bars {
+    color: teal;
+    border: 0px;
+}
+.fa-hand-holding-usd {
+    color: teal;
+    font-size: 20px;
+}
+/*INFORMATION*/
+#information {
+    background-image: url("/css/images/inversionDos.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 813px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#information h1 {
+    color: rgb(76, 245, 245);
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30%;
+}
+#information h3 {
+    color: rgb(76, 245, 245);
+    font-size: 45px;
+    font-weight: 500;
+}
+#information .name {
+    color: yellow;
+    text-decoration: none;
+}
+/*WORK*/
+#work {
+    background-color: whitesmoke;
+}
+.container-person {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 10px 15px rgba(181, 181 , 181,.7);
+    background: #f0f0f0;
+}
+.color-person {
+    color: #fff;
+}
+.p-card {
+    color: teal;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+.p-card-two {
+    color: whitesmoke;
+}
+.details {
+    width: 300px;
+    height: 190px;
+    background: #21222d;
+    border-radius: 0 40% 0 0;
+    color: #fff;
+}
+.raiting {
+    font-size: 10px;
+    color: #fdcc0d;
+}
