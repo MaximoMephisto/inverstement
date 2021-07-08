@@ -24,7 +24,7 @@
                     <a><i class="fas fa-hand-holding-usd"></i></a>
                 </div>
                 <form>
-                    <input type="text" id="register" class="fadeIn second" name="register" placeholder="register">
+                    <input type="text" id="register" class="fadeIn second" name="register" placeholder="mail">
                     <input type="text" id="password" class="fadeIn third" name="register" placeholder="password">
                     <input type="submit" class="fadeIn fourth" value="register">
                 </form>
