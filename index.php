@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INvestement</title>
-    <link rel="stylesheet" href="/css/diseno.css">
+    <link rel="stylesheet" href="css/diseno.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -205,7 +205,7 @@
         <div class="col-12 col-sm-12">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-sm-6 text-end mt-3">
+                    <div class="col-6 col-sm-6 text-center mt-3">
                         <a href="login.php">Login</a>
                     </div>
                     <div class="col-6 col-sm-6 text-center mt-3">
