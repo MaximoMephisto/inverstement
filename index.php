@@ -84,7 +84,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="card col-12 col-sm-6 my-3 p-0">
-                            <a href="login.php" class="redirect">
+                            <a href="login" class="redirect">
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <img src="css/images/bitcoin.jpg" class="img-fluid rounded-start" alt="btc">
@@ -101,7 +101,7 @@
                             </a>
                         </div>
                         <div class="card col-12 col-sm-6 my-3 p-0">
-                            <a href="login.php" class="redirect">
+                            <a href="login" class="redirect">
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <img src="css/images/ethereum.jpg" class="img-fluid rounded-start" alt="etc">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="row">
                         <div class="card col-12 col-sm-6 my-3 p-0">
-                            <a href="login.php" class="redirect">
+                            <a href="login" class="redirect">
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <img src="css/images/theter.png" class="img-fluid rounded-start mt-5" alt="usdt">
@@ -136,7 +136,7 @@
                             </a>
                         </div>
                         <div class="card col-12 col-sm-6 my-3 p-0">
-                            <a href="login.php" class="redirect">
+                            <a href="login" class="redirect">
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <img src="css/images/dai.png" class="img-fluid rounded-start" alt="dai">
@@ -161,10 +161,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-sm-6 text-center mt-3">
-                        <a href="login.php">Login</a>
+                        <a href="login">Login</a>
                     </div>
                     <div class="col-6 col-sm-6 text-center mt-3">
-                        <a href="signin.php">Sign in</a>
+                        <a href="signin">Sign in</a>
                     </div>
                 </div>
             </div>
