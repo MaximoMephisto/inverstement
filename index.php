@@ -80,122 +80,76 @@
         </section>
         <section id="work">
             <!--Vector de Abstracto creado por starline - www.freepik.es VER EN: https://www.freepik.es/vectores/abstracto-->
-            <div class="col-12 col-sm-12 text-center">
+            <div class="col-12 col-sm-12">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-6 mt-5 mb-5" style="padding-left: 10%;">
-                            <div class="container-person">
-                                <div class="col-12 col-sm-12 text-center color-person">
-                                    <p class="p-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Eveniet in voluptatibus porro iusto magnam 
-                                        inventore aut vero reiciendis neque, dicta totam perferendis nam, 
-                                        quod ab sit fugiat. Quod, ipsum quaerat.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-12 text-center">
-                                    <div class="details">
-                                        <div class="col-12 col-sm-12 text-center p-3">
-                                            <p class="p-card-two">¡Invierte un mínimo <br> y gana un máximo!</p>
-                                        </div>
-                                        <div class="raiting">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-12 col-sm-12 text-center mt-4">
-                                            <button class="btn btn-info">Use this inverstement</button>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <a href="login.php" class="redirect">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="css/images/bitcoin.jpg" class="img-fluid rounded-start" alt="btc">
+                                        <!--Vector de Fondo creado por rawpixel.com - www.freepik.es VER EN: https://www.freepik.es/vectores/fondo-->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bitcoin</h5>
+                                            <p class="card-text">Bitcoin is a protocol, open source project, and peer-to-peer network that is used as a cryptocurrency, payment system, and merchandise.</p>
+                                            <p class="card-text mt-4"><small class="text-muted">30% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5 mb-5" style="padding-left: 10%;">
-                            <div class="container-person">
-                                <div class="col-12 col-sm-12 text-center color-person">
-                                    <p class="p-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Eveniet in voluptatibus porro iusto magnam 
-                                        inventore aut vero reiciendis neque, dicta totam perferendis nam, 
-                                        quod ab sit fugiat. Quod, ipsum quaerat.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-12 text-center">
-                                    <div class="details">
-                                        <div class="col-12 col-sm-12 text-center p-3">
-                                            <p class="p-card-two">¡Invierte un mínimo <br> y gana un máximo!</p>
-                                        </div>
-                                        <div class="raiting">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-12 col-sm-12 text-center mt-4">
-                                            <button class="btn btn-info">Use this inverstement</button>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <a href="login.php" class="redirect">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="css/images/ethereum.jpg" class="img-fluid rounded-start" alt="etc">
+                                        <!--Vector de Fondo creado por rawpixel.com - www.freepik.es VER EN: https://www.freepik.es/vectores/fondo-->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ethereum</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 mt-5 mb-5" style="padding-left: 10%;">
-                            <div class="container-person">
-                                <div class="col-12 col-sm-12 text-center color-person">
-                                    <p class="p-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Eveniet in voluptatibus porro iusto magnam 
-                                        inventore aut vero reiciendis neque, dicta totam perferendis nam, 
-                                        quod ab sit fugiat. Quod, ipsum quaerat.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-12 text-center">
-                                    <div class="details">
-                                        <div class="col-12 col-sm-12 text-center p-3">
-                                            <p class="p-card-two">¡Invierte un mínimo <br> y gana un máximo!</p>
-                                        </div>
-                                        <div class="raiting">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-12 col-sm-12 text-center mt-4">
-                                            <button class="btn btn-info">Use this inverstement</button>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <a href="login.php" class="redirect">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="css/images/theter.png" class="img-fluid rounded-start mt-5" alt="usdt">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Theter</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5 mb-5" style="padding-left: 10%;">
-                            <div class="container-person">
-                                <div class="col-12 col-sm-12 text-center color-person">
-                                    <p class="p-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Eveniet in voluptatibus porro iusto magnam 
-                                        inventore aut vero reiciendis neque, dicta totam perferendis nam, 
-                                        quod ab sit fugiat. Quod, ipsum quaerat.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-12 text-center">
-                                    <div class="details">
-                                        <div class="col-12 col-sm-12 text-center p-3">
-                                            <p class="p-card-two">¡Invierte un mínimo <br> y gana un máximo!</p>
-                                        </div>
-                                        <div class="raiting">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-12 col-sm-12 text-center mt-4">
-                                            <button class="btn btn-info">Use this inverstement</button>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <a href="login.php" class="redirect">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="css/images/dai.png" class="img-fluid rounded-start" alt="dai">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dai</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +172,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js"></script>
+
 
 </body>
 </html>
