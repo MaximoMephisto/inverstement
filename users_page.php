@@ -33,35 +33,36 @@ if (!isset($_SESSION['usuario'])) {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body id="users_page">
+    <div id="ocult">
     <header>
-    <nav id="navbar" class="navbar navbar-expand-md sticky-top">
-        <div class="col-12 col-sm-12 text-center">
-            <div class="container">
-                <div class="row">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
-                        </div>
-                        <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
-                        </div>
-                        <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
-                        </div>
-                        <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
-                        </div>
-                        <div class="d-inline">
-                            <a><i class="fas fa-hand-holding-usd"></i></a>
+        <nav id="navbar" class="navbar navbar-expand-md sticky-top">
+            <div class="col-12 col-sm-12 text-center">
+                <div class="container">
+                    <div class="row">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <div class="col-6 col-sm-3 my-2">
+                                <a href="#" class="nav-link">Instagram</a>
+                            </div>
+                            <div class="col-6 col-sm-3 my-2">
+                                <a href="#" class="nav-link">Instagram</a>
+                            </div>
+                            <div class="col-6 col-sm-3 my-2">
+                                <a href="#" class="nav-link">Instagram</a>
+                            </div>
+                            <div class="col-6 col-sm-3 my-2">
+                                <a href="#" class="nav-link">Instagram</a>
+                            </div>
+                            <div class="d-inline">
+                                <a><i class="fas fa-hand-holding-usd"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <main>
         <section>
@@ -98,18 +99,23 @@ if (!isset($_SESSION['usuario'])) {
         </section>
     </main>
     <footer id="footer">
-        <div class="col-12 col-sm-12 fixed-bottom footer-person">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 text-end mt-3 mb-3">
-                        <a href="php/cerrar_sesion.php"><button class="btn btn-info">Close session</button></a>
+        <section>
+            <div class="col-12 col-sm-12 fixed-bottom footer-person">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12  text-end  mt-3 mb-3">
+                            <a href="php/cerrar_sesion.php"><button class="btn btn-info">Close session</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
+    </div>
 
     <script src="js/copy.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
