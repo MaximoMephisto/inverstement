@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INvestement</title>
+    <link rel="icon" type="image/png" href="css/images/logo.png">
     <link rel="stylesheet" href="css/diseno.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,8 +74,9 @@
                         <h1>INvestement</h1>
                     </div>
                     <div class="col-12 col-sm-12 text-end mt-3">
-                        <h3>¡Invertir ahora es facil y seguro! <br> Con <a class="name">TITLE</a> puedes invertir con tan solo un click</h3>
+                        <h3>Investing now is easy and safe! <br> With <a class="name">INvestement</a> you can invest with just one click</h3>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -110,7 +112,7 @@
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h5 class="card-title">Ethereum</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text">Ethereum is an open source platform, used to program smart contracts. The platform is decentralized unlike other blockchains.</p>
                                             <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
                                         </div>
                                     </div>
@@ -128,7 +130,7 @@
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h5 class="card-title">Theter</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text">Tether is a cryptocurrency whose tokens are issued by Correa Limited.</p>
                                             <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
                                         </div>
                                     </div>
@@ -144,7 +146,7 @@
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h5 class="card-title">Dai</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text">Dai is a stablecoin that aims to maintain its value as close to the US dollar as possible through an automated system of smart contracts on the Ethereum blockchain.</p>
                                             <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
                                         </div>
                                     </div>
