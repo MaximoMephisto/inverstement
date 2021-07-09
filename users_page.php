@@ -1,15 +1,26 @@
 <?php 
 
+session_start();
 
+if (!isset($_SESSION['usuario'])) {
+    echo '
+    <script>
+        alert("Por favor, inicia sesion.");
+        window.location= "login.php";
+    </script>
+    ';
+    session_destroy();
+    die();
+}
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>INverstement</title>
     <link rel="stylesheet" href="css/diseno.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,27 +33,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body id="init-page">
-    <div id="register">
-        <div class="wrapper fadeInDown abs-center">
-            <div id="formContent">
-                <div class="fadeIn first mt-2">
-                    <a><i class="fas fa-hand-holding-usd"></i></a>
-                </div>
-                <form action="php/register.php" method="POST">
-                    <input type="text" id="nombre" class="fadeIn second" name="nombre" placeholder="nombre" required>
-                    <input type="text" id="mail" class="fadeIn second" name="mail" placeholder="mail" required>
-                    <div class="row">
-                        <div class="col-10 col-sm-10" style="margin-left: 40px;">
-                            <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password" required>
-                        </div>
-                    </div>
-                    <input type="submit" class="fadeIn fourth" value="send" name="btnregister">
-                </form>
-                <div id="formFooter">
-                    <a class="underlineHover" href="login.php">Login</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h1>HOLA CARA DE CULO</h1>
+
+    <a href="php/cerrar_sesion.php"><button class="btn btn-danger">Close session</button></a>
 </body>
 </html>

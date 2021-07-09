@@ -1,6 +1,7 @@
 <?php 
 
 
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -23,21 +24,25 @@
 <body id="init-page">
     <div id="login">
         <div class="wrapper fadeInDown abs-center">
-            <div id="formContent">
-              <div class="fadeIn first mt-2">
-                <a><i class="fas fa-hand-holding-usd"></i></a>
+              <div id="formContent">
+                  <div class="fadeIn first mt-2">
+                      <a><i class="fas fa-hand-holding-usd"></i></a>
+                  </div>
+                  <form action="php/login_usuario.php" method="POST">
+                      <input type="text" id="login" class="fadeIn second" name="mail" placeholder="mail" required>
+                      <div class="row">
+                          <div class="col-10 col-sm-10" style="margin-left: 40px;">
+                              <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password" required>
+                          </div>
+                       </div>
+                      <input type="submit" class="fadeIn fourth" value="Log In">
+                  </form>
+                  <div id="formFooter">
+                      <a class="underlineHover" href="signin.php">Sign in</a>
+                      <br>
+                      <a class="underlineHover" href="index.php">Go to principal page</a>
+                  </div>
               </div>
-              <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="mail">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                <input type="submit" class="fadeIn fourth" value="Log In">
-              </form>
-              <div id="formFooter">
-                <a class="underlineHover" href="signin.php">Sign in</a>
-                <br>
-                <a class="underlineHover" href="index.php">Go to principal page</a>
-              </div>
-            </div>
         </div>
     </div>
 </body>
