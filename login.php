@@ -1,8 +1,3 @@
-<?php 
-
-
-
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -29,7 +24,7 @@
                       <a><i class="fas fa-hand-holding-usd"></i></a>
                   </div>
                   <form action="php/login_usuario.php" method="POST">
-                      <input type="text" id="login" class="fadeIn second" name="mail" placeholder="mail" required>
+                      <input type="text" id="mail" class="fadeIn second" name="mail" placeholder="mail" required>
                       <div class="row">
                           <div class="col-10 col-sm-10" style="margin-left: 40px;">
                               <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password" required>

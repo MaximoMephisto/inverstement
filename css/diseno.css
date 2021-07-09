@@ -45,7 +45,7 @@
 }
 /*INFORMATION*/
 #information {
-    background-image: url("./images/inversionDos.jpg");
+    background-image: url("./images/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     height: 813px;
@@ -555,4 +555,34 @@
   
 #icon {
     width:60%;
+}
+
+/*USERS_PAGE*/
+#users_page {
+    background-image: url("./images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card-person {
+    margin-top: 10%;
+}
+.card-header {
+    color: seagreen;
+    font-size: 20px;
+}
+.card-text {
+    text-decoration: none;
+    color: teal;
+    margin-right: 5px;
+}
+.fa-copy {
+    color: #56baed;
+    font-size: 20px;
+}
+.tokens {
+    font-size: 30px;
+    color: rgb(130, 185, 46);
 }

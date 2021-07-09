@@ -32,9 +32,84 @@ if (!isset($_SESSION['usuario'])) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body id="init-page">
-    <h1>HOLA CARA DE CULO</h1>
+<body id="users_page">
+    <header>
+    <nav id="navbar" class="navbar navbar-expand-md sticky-top">
+        <div class="col-12 col-sm-12 text-center">
+            <div class="container">
+                <div class="row">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div class="col-6 col-sm-3 my-2">
+                            <a href="#" class="nav-link">Instagram</a>
+                        </div>
+                        <div class="col-6 col-sm-3 my-2">
+                            <a href="#" class="nav-link">Instagram</a>
+                        </div>
+                        <div class="col-6 col-sm-3 my-2">
+                            <a href="#" class="nav-link">Instagram</a>
+                        </div>
+                        <div class="col-6 col-sm-3 my-2">
+                            <a href="#" class="nav-link">Instagram</a>
+                        </div>
+                        <div class="d-inline">
+                            <a><i class="fas fa-hand-holding-usd"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container card-person">
+                <div class="row">
+                    <div class="col-12 col-sm-12 text-center mt-5">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-header">INvestement</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Send your coins to</h5>
+                                <a href="#" class="card-text" onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()">$lqajsfajsfjdnfasd5f46sdf325sd46f4ds324fdsfd5f64s6d84</a><a><i class="far fa-copy"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container container-person-two">
+                <div class="row">
+                    <div class="col-12 col-sm-12 text-center mt-5">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-header">Your INvestement</div>
+                            <div class="card-body">
+                                <h5 class="card-title">The tokens that you have invested in us <br> will be shown after a period of three days</h5>
+                                <div class="col-12 col-sm-12 text-center mt-3">
+                                    <p class="tokens">XXX XXX</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="col-12 col-sm-12 fixed-bottom footer-person">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 text-end mt-3 mb-3">
+                        <a href="php/cerrar_sesion.php"><button class="btn btn-info">Close session</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <a href="php/cerrar_sesion.php"><button class="btn btn-danger">Close session</button></a>
+    <script src="js/copy.js"></script>
+
 </body>
 </html>
