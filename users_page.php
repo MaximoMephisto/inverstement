@@ -6,7 +6,7 @@ if (!isset($_SESSION['usuario'])) {
     echo '
     <script>
         alert("Por favor, inicia sesion.");
-        window.location= "login.php";
+        window.location= "login";
     </script>
     ';
     session_destroy();
@@ -45,16 +45,16 @@ if (!isset($_SESSION['usuario'])) {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="#" class="nav-link">Instagram</a>
+                                <a href="https://t.me/puntocriptonoticias" class="nav-link">PuntoCripto Telegram</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="#" class="nav-link">Instagram</a>
+                                <a href="https://t.me/joinchat/VESqiWf604nyoXvQ" class="nav-link">ValueIndex Telegram</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="#" class="nav-link">Instagram</a>
+                                <a href="https://www.instagram.com/fabriciovaldivieso/?igshid=1oo1h054nglmx" class="nav-link">DigitalBuzz Instagram</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="#" class="nav-link">Instagram</a>
+                                <a href="https://twitter.com/Stap_yt" class="nav-link">Stap Twitter</a>
                             </div>
                             <div class="d-inline">
                                 <a><i class="fas fa-hand-holding-usd"></i></a>
@@ -67,14 +67,65 @@ if (!isset($_SESSION['usuario'])) {
     </header>
     <main>
         <section>
-            <div class="container card-person">
-                <div class="row">
-                    <div class="col-12 col-sm-12 text-center mt-5">
-                        <div class="card text-white bg-dark mb-3">
-                            <div class="card-header">INvestement</div>
-                            <div class="card-body">
-                                <h5 class="card-title">Send your coins to</h5>
-                                <a href="#" class="card-text" onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()">$lqajsfajsfjdnfasd5f46sdf325sd46f4ds324fdsfd5f64s6d84</a><a><i class="far fa-copy"></i></a>
+            <div class="col-12 col-sm-12 mt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="css/images/btc.jpeg" class="img-fluid rounded-start" alt="btc">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Scan or click the code for bitcoin</h5>
+                                            <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> bc1qq5k6yzfgxtur26rhvws3zevakqu3v5w59q9mr0</a></p>
+                                            <p class="card-text mt-4"><small class="text-muted">30% of people invest here</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="css/images/eth.jpeg" class="img-fluid rounded-start" alt="etc">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ethereum</h5>
+                                        <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
+                                        <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="css/images/usdt.jpeg" class="img-fluid rounded-start" alt="usdt">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Theter</h5>
+                                        <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
+                                        <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 my-3 p-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="css/images/dai-two.jpeg" class="img-fluid rounded-start" alt="dai">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dai</h5>
+                                        <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> bnb1h7fyy6u09jce0ey37xw695pee5w357sczsg63y</a></p>
+                                        <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

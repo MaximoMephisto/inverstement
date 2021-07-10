@@ -540,8 +540,16 @@
     background-attachment: fixed;
     background-size: cover;
 }
-.card-person {
-    margin-top: 10%;
+#users_page .card-title {
+    color: teal;
+}
+.fa-copy {
+    color: rgb(130, 185, 46);
+    font-size: 20px;
+}
+.img-person-two {
+    width: 544px;
+    height: 544px;
 }
 .card-header {
     color: seagreen;
@@ -551,10 +559,6 @@
     text-decoration: none;
     color: teal;
     margin-right: 5px;
-}
-.fa-copy {
-    color: #56baed;
-    font-size: 20px;
 }
 .tokens {
     font-size: 30px;

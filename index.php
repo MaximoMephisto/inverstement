@@ -23,16 +23,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-sm-3 my-2">
-                        <a href="#">Facebook</a>
+                        <a href="https://www.youtube.com/c/PuntoCripto/featured">PuntoCripto</a>
                     </div>
                     <div class="col-6 col-sm-3 my-2">
-                        <a href="#">Facebook</a>
+                        <a href="https://www.youtube.com/channel/UCazZozymAFpyrVHiZreOJOA">ValueIndex</a>
                     </div>
                     <div class="col-6 col-sm-3 my-2">
-                        <a href="#">Facebook</a>
+                        <a href="https://www.youtube.com/channel/UCNNJc3INg9rNSyXLx3SlofA">DigitalBuzz</a>
                     </div>
                     <div class="col-6 col-sm-3 my-2">
-                        <a href="#">Facebook</a>
+                        <a href="https://www.youtube.com/channel/UCC7ENYpipZ8V1ewSRu2NnGw">Stap</a>
                     </div>
                 </div>
             </div>
@@ -47,16 +47,16 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
+                            <a href="https://t.me/puntocriptonoticias" class="nav-link">PuntoCripto Telegram</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
+                            <a href="https://t.me/joinchat/VESqiWf604nyoXvQ" class="nav-link">ValueIndex Telegram</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
+                            <a href="https://www.instagram.com/fabriciovaldivieso/?igshid=1oo1h054nglmx" class="nav-link">DigitalBuzz Instagram</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="#" class="nav-link">Instagram</a>
+                            <a href="https://twitter.com/Stap_yt" class="nav-link">Stap Twitter</a>
                         </div>
                         <div class="d-inline">
                             <a><i class="fas fa-hand-holding-usd"></i></a>
