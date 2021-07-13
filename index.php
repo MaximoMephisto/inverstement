@@ -18,26 +18,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body id="init-page">
-    <header id="header">
-        <div class="col-12 col-sm-12 text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-sm-3 my-2">
-                        <a href="https://www.youtube.com/c/PuntoCripto/featured">PuntoCripto</a>
-                    </div>
-                    <div class="col-6 col-sm-3 my-2">
-                        <a href="https://www.youtube.com/channel/UCazZozymAFpyrVHiZreOJOA">ValueIndex</a>
-                    </div>
-                    <div class="col-6 col-sm-3 my-2">
-                        <a href="https://www.youtube.com/channel/UCNNJc3INg9rNSyXLx3SlofA">DigitalBuzz</a>
-                    </div>
-                    <div class="col-6 col-sm-3 my-2">
-                        <a href="https://www.youtube.com/channel/UCC7ENYpipZ8V1ewSRu2NnGw">Stap</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <nav id="navbar" class="navbar navbar-expand-md sticky-top">
         <div class="col-12 col-sm-12 text-center">
             <div class="container">
@@ -47,16 +27,16 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="https://t.me/puntocriptonoticias" class="nav-link">PuntoCripto Telegram</a>
+                            <a href="https://www.youtube.com/c/PuntoCripto/featured" class="nav-link">PuntoCripto</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="https://t.me/joinchat/VESqiWf604nyoXvQ" class="nav-link">ValueIndex Telegram</a>
+                            <a href="https://www.youtube.com/channel/UCazZozymAFpyrVHiZreOJOA" class="nav-link">ValueIndex</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="https://www.instagram.com/fabriciovaldivieso/?igshid=1oo1h054nglmx" class="nav-link">DigitalBuzz Instagram</a>
+                            <a href="https://www.youtube.com/channel/UCNNJc3INg9rNSyXLx3SlofA" class="nav-link">DigitalBuzz</a>
                         </div>
                         <div class="col-6 col-sm-3 my-2">
-                            <a href="https://twitter.com/Stap_yt" class="nav-link">Stap Twitter</a>
+                            <a href="https://www.youtube.com/channel/UCC7ENYpipZ8V1ewSRu2NnGw" class="nav-link">Stap</a>
                         </div>
                         <div class="d-inline">
                             <a><i class="fas fa-hand-holding-usd"></i></a>

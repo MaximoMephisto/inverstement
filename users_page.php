@@ -45,16 +45,16 @@ if (!isset($_SESSION['usuario'])) {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="https://t.me/puntocriptonoticias" class="nav-link">PuntoCripto Telegram</a>
+                                <a href="https://www.youtube.com/c/PuntoCripto/featured" class="nav-link">PuntoCripto</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="https://t.me/joinchat/VESqiWf604nyoXvQ" class="nav-link">ValueIndex Telegram</a>
+                                <a href="https://www.youtube.com/channel/UCazZozymAFpyrVHiZreOJOA" class="nav-link">ValueIndex</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="https://www.instagram.com/fabriciovaldivieso/?igshid=1oo1h054nglmx" class="nav-link">DigitalBuzz Instagram</a>
+                                <a href="https://www.youtube.com/channel/UCNNJc3INg9rNSyXLx3SlofA" class="nav-link">DigitalBuzz</a>
                             </div>
                             <div class="col-6 col-sm-3 my-2">
-                                <a href="https://twitter.com/Stap_yt" class="nav-link">Stap Twitter</a>
+                                <a href="https://www.youtube.com/channel/UCC7ENYpipZ8V1ewSRu2NnGw" class="nav-link">Stap</a> 
                             </div>
                             <div class="d-inline">
                                 <a><i class="fas fa-hand-holding-usd"></i></a>
@@ -93,7 +93,7 @@ if (!isset($_SESSION['usuario'])) {
                                     <div class="card-body">
                                         <h5 class="card-title">Ethereum</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
-                                        <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
+                                        <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ if (!isset($_SESSION['usuario'])) {
                                     <div class="card-body">
                                         <h5 class="card-title">Theter</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
-                                        <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
+                                        <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ if (!isset($_SESSION['usuario'])) {
                                     <div class="card-body">
                                         <h5 class="card-title">Dai</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> bnb1h7fyy6u09jce0ey37xw695pee5w357sczsg63y</a></p>
-                                        <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
+                                        <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
                                     </div>
                                 </div>
                             </div>
