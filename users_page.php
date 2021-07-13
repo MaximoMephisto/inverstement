@@ -77,7 +77,7 @@ if (!isset($_SESSION['usuario'])) {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Scan or click the code for bitcoin</h5>
+                                            <h5 class="card-title">Scan or click the code for Bitcoin</h5>
                                             <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> bc1qq5k6yzfgxtur26rhvws3zevakqu3v5w59q9mr0</a></p>
                                             <p class="card-text mt-4"><small class="text-muted">30% of people invest here</small></p>
                                         </div>
@@ -91,7 +91,7 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Ethereum</h5>
+                                        <h5 class="card-title">Scan or click the code for Ethereum</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
                                         <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
                                     </div>
@@ -107,7 +107,7 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Theter</h5>
+                                        <h5 class="card-title">Scan or click the code for Theter</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> 0x9332aAb2FCf6C34f7a8F8D89DA47b5bd2F700d02</a></p>
                                         <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
                                     </div>
@@ -121,7 +121,7 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Dai</h5>
+                                        <h5 class="card-title"> Scan or click the code for Dai</h5>
                                         <p> <i class="fa fa-copy"></i> <a onclick="Copiar(this)" onmouseover="" onmouseout="copyalert()"> bnb1h7fyy6u09jce0ey37xw695pee5w357sczsg63y</a></p>
                                         <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
                                     </div>
