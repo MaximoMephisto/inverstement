@@ -93,7 +93,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Ethereum</h5>
                                             <p class="card-text">Ethereum is an open source platform, used to program smart contracts. The platform is decentralized unlike other blockchains.</p>
-                                            <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
+                                            <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Theter</h5>
                                             <p class="card-text">Tether is a cryptocurrency whose tokens are issued by Correa Limited.</p>
-                                            <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
+                                            <p class="card-text"><small class="text-muted">40% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Dai</h5>
                                             <p class="card-text">Dai is a stablecoin that aims to maintain its value as close to the US dollar as possible through an automated system of smart contracts on the Ethereum blockchain.</p>
-                                            <p class="card-text"><small class="text-muted">20% of people invest here</small></p>
+                                            <p class="card-text"><small class="text-muted">10% of people invest here</small></p>
                                         </div>
                                     </div>
                                 </div>

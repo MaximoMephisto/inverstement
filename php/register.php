@@ -34,23 +34,6 @@ if (mysqli_num_rows($verificar_correo) > 0) {
 
 }
 
-$verificar_usuario = mysqli_query($conexion, "SELECT * 
-    FROM usuarios 
-    WHERE nombre ='$nombre'"
-);
-
-if (mysqli_num_rows($verificar_usuario) > 0) {
-    echo '
-    <script>
-        alert("Nombre de usuario ya registrado, intenta con otro.");
-        window.location = "../signin";
-    </script>
-    ';
-
-    exit();
-
-}
-
 $ejecutar = mysqli_query($conexion, $query);
 
 if ($ejecutar) {

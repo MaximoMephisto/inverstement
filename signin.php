@@ -25,7 +25,7 @@
                     <a><i class="fas fa-hand-holding-usd"></i></a>
                 </div>
                 <form action="php/register.php" method="POST">
-                    <input type="text" id="nombre" class="fadeIn second" name="nombre" placeholder="nombre" required>
+                    <input type="text" id="nombre" class="fadeIn second" name="nombre" placeholder="usuario" required>
                     <input type="text" id="mail" class="fadeIn second" name="mail" placeholder="mail" required>
                     <div class="row">
                         <div class="col-10 col-sm-10" style="margin-left: 40px;">
