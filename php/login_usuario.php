@@ -15,7 +15,7 @@ $validar_login = mysqli_query($conexion, "SELECT *
 
 if (mysqli_num_rows($validar_login) > 0) {
     $_SESSION['usuario'] = $mail;
-    header("location: ../users_page");
+    header("location: ../users_page.php");
 
     exit();
 
@@ -24,7 +24,7 @@ if (mysqli_num_rows($validar_login) > 0) {
     echo '
     <script>
         alert("Usuario no registrado o datos incorrectos");
-        window.location = "../login";
+        window.location = "../login.php";
     </script>
     ';
 

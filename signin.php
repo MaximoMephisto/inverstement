@@ -35,7 +35,7 @@
                     <input type="submit" class="fadeIn fourth" value="send" name="btnregister">
                 </form>
                 <div id="formFooter">
-                    <a class="underlineHover" href="login">Login</a>
+                    <a class="underlineHover" href="login.php">Login</a>
                 </div>
             </div>
         </div>

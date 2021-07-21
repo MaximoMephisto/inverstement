@@ -34,9 +34,9 @@
                       <input type="submit" class="fadeIn fourth" value="Log In">
                   </form>
                   <div id="formFooter">
-                      <a class="underlineHover" href="signin">Sign in</a>
+                      <a class="underlineHover" href="signin.php">Sign in</a>
                       <br>
-                      <a class="underlineHover" href="index">Go to principal page</a>
+                      <a class="underlineHover" href="index.php">Go to principal page</a>
                   </div>
               </div>
         </div>

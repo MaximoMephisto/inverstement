@@ -26,7 +26,7 @@ if (mysqli_num_rows($verificar_correo) > 0) {
     echo '
     <script>
         alert("Correo ya registrado, intenta con otro.");
-        window.location = "../signin";
+        window.location = "../signin.php";
     </script>
     ';
 
@@ -40,14 +40,14 @@ if ($ejecutar) {
     echo '
     <script>
         alert("Registrado exitosamente");
-        window.location = "../login";
+        window.location = "../login.php";
     </script>
     ';
 } else {
     echo '
     <script>
         alert("Lamentamos no poder registrar el usuario, revise bien los datos");
-        window.location = "../signin"
+        window.location = "../signin.php"
     </script>
     ';
 }
